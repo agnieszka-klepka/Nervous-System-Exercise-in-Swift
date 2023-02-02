@@ -14,7 +14,11 @@
 		8B67A30029620DA400E8821E /* Nervous_System_ExerciseTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67A2FF29620DA400E8821E /* Nervous_System_ExerciseTests.swift */; };
 		8B67A30A29620DA400E8821E /* Nervous_System_ExerciseUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67A30929620DA400E8821E /* Nervous_System_ExerciseUITests.swift */; };
 		8B67A30C29620DA400E8821E /* Nervous_System_ExerciseUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B67A30B29620DA400E8821E /* Nervous_System_ExerciseUITestsLaunchTests.swift */; };
-		8B693CFD2986B73B00AC56B9 /* SudokuLogic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B693CFC2986B73B00AC56B9 /* SudokuLogic.swift */; };
+		8B693CFF2986C8B600AC56B9 /* SudokuModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B693CFE2986C8B600AC56B9 /* SudokuModel.swift */; };
+		8B9000BC298BE3B30067F5E8 /* SudokuGlobalVariables.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000BB298BE3B30067F5E8 /* SudokuGlobalVariables.swift */; };
+		8B9000BE298BE41D0067F5E8 /* SudokuBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */; };
+		8B9000C0298BE4500067F5E8 /* SudokuNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */; };
+		8B9000C2298C16690067F5E8 /* CrosswordBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,7 +49,11 @@
 		8B67A30529620DA400E8821E /* Nervous System ExerciseUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Nervous System ExerciseUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8B67A30929620DA400E8821E /* Nervous_System_ExerciseUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nervous_System_ExerciseUITests.swift; sourceTree = "<group>"; };
 		8B67A30B29620DA400E8821E /* Nervous_System_ExerciseUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Nervous_System_ExerciseUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		8B693CFC2986B73B00AC56B9 /* SudokuLogic.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuLogic.swift; sourceTree = "<group>"; };
+		8B693CFE2986C8B600AC56B9 /* SudokuModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuModel.swift; sourceTree = "<group>"; };
+		8B9000BB298BE3B30067F5E8 /* SudokuGlobalVariables.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuGlobalVariables.swift; sourceTree = "<group>"; };
+		8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuBoard.swift; sourceTree = "<group>"; };
+		8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuNumbers.swift; sourceTree = "<group>"; };
+		8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordBoard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,7 +108,11 @@
 				8B67A2F029620DA200E8821E /* ContentView.swift */,
 				8B67A2F229620DA400E8821E /* Assets.xcassets */,
 				8B67A2F429620DA400E8821E /* Preview Content */,
-				8B693CFC2986B73B00AC56B9 /* SudokuLogic.swift */,
+				8B693CFE2986C8B600AC56B9 /* SudokuModel.swift */,
+				8B9000BB298BE3B30067F5E8 /* SudokuGlobalVariables.swift */,
+				8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */,
+				8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */,
+				8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */,
 			);
 			path = "Nervous System Exercise";
 			sourceTree = "<group>";
@@ -260,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8B693CFF2986C8B600AC56B9 /* SudokuModel.swift in Sources */,
+				8B9000C0298BE4500067F5E8 /* SudokuNumbers.swift in Sources */,
+				8B9000BC298BE3B30067F5E8 /* SudokuGlobalVariables.swift in Sources */,
 				8B67A2F129620DA200E8821E /* ContentView.swift in Sources */,
+				8B9000BE298BE41D0067F5E8 /* SudokuBoard.swift in Sources */,
 				8B67A2EF29620DA200E8821E /* Nervous_System_ExerciseApp.swift in Sources */,
-				8B693CFD2986B73B00AC56B9 /* SudokuLogic.swift in Sources */,
+				8B9000C2298C16690067F5E8 /* CrosswordBoard.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
