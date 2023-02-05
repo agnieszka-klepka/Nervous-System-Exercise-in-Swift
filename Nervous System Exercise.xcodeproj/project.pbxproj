@@ -19,6 +19,7 @@
 		8B9000BE298BE41D0067F5E8 /* SudokuBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */; };
 		8B9000C0298BE4500067F5E8 /* SudokuNumbers.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */; };
 		8B9000C2298C16690067F5E8 /* CrosswordBoard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */; };
+		8B9000C4298D534C0067F5E8 /* CrosswordKeyboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8B9000C3298D534C0067F5E8 /* CrosswordKeyboard.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,6 +55,7 @@
 		8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuBoard.swift; sourceTree = "<group>"; };
 		8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SudokuNumbers.swift; sourceTree = "<group>"; };
 		8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordBoard.swift; sourceTree = "<group>"; };
+		8B9000C3298D534C0067F5E8 /* CrosswordKeyboard.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrosswordKeyboard.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +115,7 @@
 				8B9000BD298BE41D0067F5E8 /* SudokuBoard.swift */,
 				8B9000BF298BE4500067F5E8 /* SudokuNumbers.swift */,
 				8B9000C1298C16690067F5E8 /* CrosswordBoard.swift */,
+				8B9000C3298D534C0067F5E8 /* CrosswordKeyboard.swift */,
 			);
 			path = "Nervous System Exercise";
 			sourceTree = "<group>";
@@ -273,6 +276,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8B693CFF2986C8B600AC56B9 /* SudokuModel.swift in Sources */,
+				8B9000C4298D534C0067F5E8 /* CrosswordKeyboard.swift in Sources */,
 				8B9000C0298BE4500067F5E8 /* SudokuNumbers.swift in Sources */,
 				8B9000BC298BE3B30067F5E8 /* SudokuGlobalVariables.swift in Sources */,
 				8B67A2F129620DA200E8821E /* ContentView.swift in Sources */,
